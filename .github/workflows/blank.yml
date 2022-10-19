@@ -1,0 +1,14 @@
+name: Workflow example
+
+on:
+
+  push:
+    branches:
+    - main
+    paths:
+    - sample
+    
+
+jobs:
+
+  build:
